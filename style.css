@@ -151,7 +151,7 @@ body {
 .message p {
   min-height: 10px;
 }
-.title {
+.title2 {
     font-size: 2.5rem;
     font-weight: 400;
     color: linear-gradient(to right, #4285f4, #d96570);
@@ -160,8 +160,8 @@ body {
     -webkit-text-fill-color: transparent;
     margin-top: 20px;
     text-align: center;
+    justify-content: center;
     width: 100%;
-
 }
 
 svg {
@@ -169,6 +169,13 @@ svg {
     height: 40px;
     fill: var(--text-color);
     /* margin-left: 10px; */
+}
+
+h6 {
+    font-size: 1.2rem;
+    color: var(--subheading-color);
+    text-align: center;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 640px) {
